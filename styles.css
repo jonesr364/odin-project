@@ -1,21 +1,27 @@
 body {
 	display: flex;
 	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
 }
+
 
 .hero {
 	background-color: #1F2937;
 	padding: 30px;
+	flex: 1;
+	text-align: left;
 }
 
 .logo {
 	font-size: 24px;
 	color: #F9FAF8;
+	display: flex;
 }
 
-h2 {
+.hero-main {
 	font-size: 48px;
-	font-weight: extra-bold;
+	font-weight: bold;
 	color: #F9FAF8;
 }
 
@@ -34,11 +40,74 @@ h2 {
 header {
 	display: flex;
 	flex-direction: row;
-	padding: 10px;
+	padding: 0px  30px 0px 30px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
 }
 
 a {
 	text-decoration: none;
 }
 
-.random img <
+.intro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	background-color: #3882F6;
+	color: #E5E7EB;
+	border-radius: 4px;
+	font-weight: bold;
+	border-style: none;
+}
+
+.signup {
+	flex: 1;
+}
+
+.placeholder {
+	flex: 1;
+	background-color: gray;
+	color: white;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-contents: center;
+}
+
+.placeholder-text {
+	align-text: center;
+}
+
+.information {
+	text-align: center;	
+	flex: 1;
+}
+
+
+.random-title {
+	font-size: 36px;
+	font-weight: bold;
+	color: #1F2937;
+}
+
+.container {
+	display: flex;
+}
+
+img {
+	border-style: solid;
+	border-color: #3882F6;
+	border-radius: 4px;
+}
+
+.quote {
+	background-color: #E5E7EB;
+	color: #1F2937;
+	font-style: italic;
+	font-size: 36px;
+	flex: 1;
+}
